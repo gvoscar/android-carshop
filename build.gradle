@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.0"
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.2.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    playServicesAuth = '16.0.0'
+
+    eventbusVersion = '3.1.1'
+    glideVersion = '4.6.1'
+    circleimageviewVersion = '2.2.0'
+    butterknifeVersion = '10.1.0'
+    retrofitVersion = '2.2.0'
+    animationsVersion = '1.0.0'
+    fastscrollVersion = '0.2.5'
+    circularprogressbarVersion = '1.1.1'
+}

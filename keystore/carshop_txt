@@ -1,0 +1,42 @@
+key store path: 
+/Users/air/AndroidStudioProjects/AndroidCarShop/keystore/carshop-debug-keystore.jks
+
+password: gvoscar_debug
+
+Alias: carshop_debug
+Password: gvoscar_debug
+
+keytool -list -v -keystore /Users/air/AndroidStudioProjects/AndroidCarShop/keystore/carshop-debug-keystore.jks -alias gvoscar_debug -storepass gvoscar_debug -keypass gvoscar_debug
+
+
+Alias name: gvoscar_debug
+Creation date: 29 ago. 2020
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Oscar Giraldo, OU=Desarrollador de Apps, O=https://github.com/gvoscar, L=Cali, ST=Valle, C=CO
+Issuer: CN=Oscar Giraldo, OU=Desarrollador de Apps, O=https://github.com/gvoscar, L=Cali, ST=Valle, C=CO
+Serial number: 421d9281
+Valid from: Sat Aug 29 00:04:59 COT 2020 until: Wed Aug 23 00:04:59 COT 2045
+Certificate fingerprints:
+	 SHA1: F8:D0:D5:E2:37:B6:90:C9:BD:C6:DA:63:F7:FA:29:52:A1:3A:71:C2
+	 SHA256: 21:53:7D:6B:4D:6A:91:23:16:F8:7C:E3:04:54:26:80:12:13:32:7A:60:C4:27:9E:E8:05:B4:79:5D:D3:5B:B7
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1C 44 9C 51 C7 3B 96 27   8D 27 5A C4 BA E9 9A 21  .D.Q.;.'.'Z....!
+0010: C7 4D 9D 70                                        .M.p
+]
+]
+
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore /Users/air/AndroidStudioProjects/AndroidCarShop/keystore/carshop-debug-keystore.jks -destkeystore /Users/air/AndroidStudioProjects/AndroidCarShop/keystore/carshop-debug-keystore.jks -deststoretype pkcs12".
+MacBook-Air-de-Air:~ air$ 
+

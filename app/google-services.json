@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "916431340752",
+    "firebase_url": "https://pasili.firebaseio.com",
+    "project_id": "pasili",
+    "storage_bucket": "pasili.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916431340752:android:b11353447890562dc50ad5",
+        "android_client_info": {
+          "package_name": "com.gvoscar.apps.carshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916431340752-ejo0l0nu8ksd1l4ielv7jjnrlqjamm6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXPCM-Wz0UKXUmELbDS4qasVZLsUGGXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916431340752-ejo0l0nu8ksd1l4ielv7jjnrlqjamm6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
