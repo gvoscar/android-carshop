@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "916431340752-ef8flu2v61d7ksv59phom7a587djrnn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gvoscar.apps.carshop",
+            "certificate_hash": "f8d0d5e237b690c9bdc6da63f7fa2952a13a71c2"
+          }
+        },
+        {
           "client_id": "916431340752-ejo0l0nu8ksd1l4ielv7jjnrlqjamm6r.apps.googleusercontent.com",
           "client_type": 3
         }
