@@ -1,6 +1,7 @@
 # Aplicación de Tienda de Autos
 
 La aplicación guarda la información de los automóviles en una base de datos local en el teléfono.
+* Puedes descargar el APK firmado - [Aquí]()
 
 ## Categoría de vehículos predeterminadas
 - Eléctrico
