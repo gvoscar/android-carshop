@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CarShop</string>
+    <string name="app.format.currency">$ %,.0f</string>
+    <string name="app.format.currency.cop">$ %,.0f COP</string>
 </resources>

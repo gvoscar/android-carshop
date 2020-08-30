@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_menu_cars"
+        android:title="Vehículos"
+        android:icon="@drawable/ic_action_cars"/>
+    <item android:id="@+id/action_menu_none"
+        android:title="">
+    </item>
+    <item android:id="@+id/action_menu_categories"
+        android:title="Categorías"
+        android:icon="@drawable/ic_action_categories"/>
+</menu>

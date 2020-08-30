@@ -3,6 +3,7 @@ package com.gvoscar.apps.carshop.pojos;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class User {
     public static final String key_photoUrl = "photoUrl";
     public static final String key_email = "email";

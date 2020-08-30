@@ -17,6 +17,7 @@ import com.gvoscar.apps.carshop.loader.presenters.LoaderPresenter;
 import com.gvoscar.apps.carshop.loader.presenters.LoaderPresenterImpl;
 import com.gvoscar.apps.carshop.login.ui.LoginActivity;
 import com.gvoscar.apps.carshop.logs.SimpleLog;
+import com.gvoscar.apps.carshop.permissions.CameraPermitDialog;
 import com.jrummyapps.android.animations.Technique;
 
 import butterknife.BindView;
@@ -70,9 +71,6 @@ public class LoaderActivity extends AppCompatActivity implements LoaderView {
         };
     }
 
-    /**
-     * Dispatch onPause() to fragments.
-     */
     @Override
     protected void onPause() {
         super.onPause();
@@ -83,13 +81,20 @@ public class LoaderActivity extends AppCompatActivity implements LoaderView {
     protected void onResume() {
         super.onResume();
         mTimer.start();
-
         // Comprobar animacion no iniciada.
         if (!isAnimation) {
             isAnimation = true;
             // Primera animación.
             onFirstAnimation();
         }
+
+        /*
+        if (CameraPermitDialog.isPermissionGranted(this)) {
+
+        } else {
+            new CameraPermitDialog().show(getFragmentManager(), "permisoCamara");
+        }
+         */
     }
 
     /**
