@@ -114,6 +114,7 @@ public class VehicleActivity extends AppCompatActivity implements VehicleView {
     protected void onDestroy() {
         mSession.setVehicle(null);
         mPresenter.onDestroy();
+        pathPhoto = null;
         super.onDestroy();
     }
 
